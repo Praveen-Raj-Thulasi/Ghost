@@ -1,0 +1,19 @@
+{
+  "name": "repo-seance-local-agent",
+  "version": "0.1.0",
+  "description": "CLI for safely analyzing local Git repositories for Repo Séance",
+  "main": "src/cli.js",
+  "bin": {
+    "repo-seance": "src/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Repo Séance",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "zod": "^3.22.4"
+  }
+}

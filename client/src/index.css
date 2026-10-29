@@ -1,0 +1,15 @@
+// src/index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles for the ghost theme */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background-color: #090B10; /* bg-dark */
+  color: #F2F4F8; /* text-main */
+  font-family: var(--font-sans, 'Inter', system-ui, sans-serif);
+}
